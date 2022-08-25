@@ -41,7 +41,7 @@ seje_menu_links = [
 ]
 
 [languages.en.translations]
-title = "marginal Words"
+title = "marginal words"
 home = "Home"
 archives = "Archives"
 about = "About"
