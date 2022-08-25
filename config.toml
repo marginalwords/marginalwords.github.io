@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://marginalwords.github.io"
 
-title = "marginal Words"
+title = "marginal words"
 theme = "Seje2"
 output_dir = "public"
 # Whether to automatically compile all Sass files in the sass directory
