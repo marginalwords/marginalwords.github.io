@@ -1,5 +1,0 @@
-#!/bin/zsh
-git add .
-git commit -m 'new article'
-git push origin main
-echo Done!
