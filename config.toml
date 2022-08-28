@@ -21,7 +21,7 @@ highlight_code = false
 
 [extra]
 # show Chinese date format instead of normal date format
-seje_chinese_date = false
+seje_chinese_date = true
 # show summary instead of the whole article on the index page
 seje_show_summary_only = false
 # Google Font API mirror URLs (for China mainland users, try fonts.loli.net)
