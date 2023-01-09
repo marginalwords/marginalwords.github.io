@@ -5,6 +5,6 @@ date = 2022-08-24
 
 +++
 
-Words with significance. Telegram channel: [t.me](https://t.me/marginalwords)
+Built with [Zola](http://getzola.org/) on GitHub.
 
-Built with Zola.
+Telegram channel: [t.me](https://t.me/marginalwords)
