@@ -15,6 +15,4 @@ jobs:
     - name: Build and deploy
     uses: Deuchnord/zola-deploy-action@fix/safe-directory
       env:
-        PAGES_BRANCH: gh-pages
-        BUILD_DIR: .
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
