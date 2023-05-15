@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://marginalwords.github.io/atom.xml">
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>Marginal Words</title>
+    <meta charset="utf-8">
+    <meta name="title" content="Marginal Words">
+    <meta name="description" content="">
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;marginalwords.github.io/style.css">
+    
+    
+    <style>
+    @media screen and (min-width: 320px) {
+        body {
+            font-size: calc(16px + 2 * ((100vw - 320px) / 960));
+        }
+    }
+    </style>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&amp;family=Noto+Serif+KR:wght@400;700&amp;Noto+Serif+SC:wght@400;700&display=swap">
+    <style>body { font-family: 'Source Serif Pro', 'Source Han Serif TC', 'Noto Serif CJK TC', 'Noto Serif TC', 'Noto Serif KR', 'Noto Serif SC', serif }</style>
+    
+</head>
+<body>
+    
+    <header class="header">
+        <div class="blog-title"><a href="https:&#x2F;&#x2F;marginalwords.github.io" class="logo">Marginal Words</a></div>
+        <nav class="navbar">
+    <ul class="menu">
+        
+        
+        <li class="menu-item">
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;marginalwords.github.io&#x2F;" class="current-menu-item-link">Home</a>
+            
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;marginalwords.github.io&#x2F;archive" class="menu-item-link">Archive</a>
+            
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;marginalwords.github.io&#x2F;about" class="menu-item-link">About</a>
+            
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;marginalwords.github.io&#x2F;atom.xml" class="menu-item-link">RSS</a>
+            
+        </li>
+        
+    </ul>
+</nav>
+
+    </header>
+    
+    <main class="main">
+        
+<section class="posts">
+    
+    <article class="post">
+        <div class="post-title"><a href="https:&#x2F;&#x2F;marginalwords.github.io&#x2F;nihilists&#x2F;" class="post-title-link">虛無主義者們</a></div>
+        <div class="post-content">
+            
+                <p>Robert Bresson 的電影 <em>Pickpocket</em>（中譯名《扒手》）裏，Michel 決定做扒手的原因與小說《罪與罰》裏 Raskolnikov 殺人的原因是一致的：他們認爲自己天生聰明，思想深刻不庸俗，因而是卓越的人。就算自己犯罪也必然是完美犯罪，因爲世界上沒有神。同樣，他們也都是孤獨的虛無主義者。Michel 在電影中如此回答：我信過神，三分鐘。完美犯罪就是這些聰明的虛無主義者對社會和價值之虛無的證明。Raskolnikov 最後因愛和基督信仰而精神得救。到了 Michel 這裏，得救之因只是愛。一道一光年寬的岩漿流將他們隔開，在這流裏 Paul Celan（保羅·策蘭）成爲約伯（見書《策蘭傳》）。</p>
+
+            
+        </div>
+        <div class="post-meta">
+            
+                2023&#x2F;01&#x2F;01
+            
+        </div>
+    </article>
+    
+
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var Home = location.href,
+        xhr,
+        xhrUrl = '';
+    
+        var Diaspora = {
+            L: function(url, f, err) {
+                if (url == xhrUrl) {
+                    return false;
+                }
+                xhrUrl = url;
+                if (xhr) {
+                    xhr.abort();
+                }
+                xhr = $.ajax({
+                    type: 'GET',
+                    url: url,
+                    timeout: 10000,
+                    success: function(data) {
+                        f(data);
+                        xhrUrl = '';
+                    },
+                    error: function(a, b, c) {
+                        if (b == 'abort') {
+                            err && err()
+                        } else {
+                            window.location.href = url;
+                        }
+                        xhrUrl = '';
+                    }
+                });
+            },
+            loading: function() {
+                var w = window.innerWidth;
+                var css = '<style class="loaderstyle" id="loaderstyle'+ w +'">'+
+                    '@-moz-keyframes loader'+ w +'{100%{background-position:'+ w +'px 0}}'+
+                    '@-webkit-keyframes loader'+ w +'{100%{background-position:'+ w +'px 0}}'+
+                    '.loader'+ w +'{-webkit-animation:loader'+ w +' 3s linear infinite;-moz-animation:loader'+ w +' 3s linear infinite;}'+
+                    '</style>';
+                $('.loaderstyle').remove()
+                $('head').append(css)
+                $('#loader').removeClass().addClass('loader'+ w).show()
+            },
+            loaded: function() {
+                $('#loader').removeClass().hide()
+            }
+        };
+    
+        $(function() {
+            $('body').on('click', function(e) {
+                var tag = $(e.target).attr('class') || '',
+                    rel = $(e.target).attr('rel') || '';
+                if (!tag && !rel) return;
+                switch (true) {
+                    // next page
+                    case (tag.indexOf('more') != -1):
+                        tag = $('.more');
+                        if (tag.data('status') == 'loading') {
+                            return false
+                        }
+                        var num = parseInt(tag.data('page')) || 1;
+                        if (num == 1) {
+                            tag.data('page', 1)
+                        }
+                        tag.html("Load More").data('status', 'loading')
+                        Diaspora.loading()
+                        Diaspora.L(tag.attr('href'), function(data) {
+                            tag.hide();
+                            $('.license').hide();
+                            var link = $(data).find('.more').attr('href');
+                            if (link) {
+                                tag.attr('href', link).html("Load More").data('status', 'loaded')
+                                tag.data('page', parseInt(tag.data('page')) + 1)
+                            }
+                            var tempScrollTop = $(window).scrollTop();
+                            $('body').append($(data).find('.posts'))
+                            $(window).scrollTop(tempScrollTop + 100);
+                            Diaspora.loaded()
+                            //$('html,body').animate({ scrollTop: tempScrollTop + 400 }, 500);
+                            if (link !== '/' && link != '') {
+                                $('body').append($(data).find('.page-nav'))
+                            }
+                        }, function() {
+                            tag.html("Load More").data('status', 'loaded')
+                        })
+                        return false;
+                        break;
+                    default:
+                        return true;
+                        break;
+                }
+            });
+        })
+    </script>
+    
+    <nav class="page-nav">
+      <a href="" class="more">Load More</a>
+    </nav>
+
+
+    </main>
+    
+        <p class="license"></p>
+    
+</body>
+</html>
